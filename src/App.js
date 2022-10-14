@@ -13,7 +13,6 @@ import { playAudio } from "./Util";
 function App() {
   //Ref
   const audioRef = useRef(null);
-
   const [songs, setSongs] = useState(chillhop());
   const [currentSong, setCurrentSong] = useState(songs[0]);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -68,6 +67,7 @@ function App() {
         isPlaying={isPlaying}
         setSongs={setSongs}
         libraryStatus={libraryStatus}
+        setLibraryStatus={setLibraryStatus}
       />
       <audio
         onLoadedMetadata={timeUpdateHandler}
@@ -75,7 +75,6 @@ function App() {
         ref={audioRef}
         src={currentSong.audio}
         onEnded={songEndHandler}
-       
       ></audio>
     </div>
   );

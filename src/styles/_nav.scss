@@ -1,7 +1,7 @@
 .nav {
     min-height:10vh;
     display:flex;
-    justify-content:space-around;
+    justify-content:flex-start;
     align-items:center;
     button {
         background:transparent;
@@ -23,6 +23,12 @@
     nav {
         button {
             z-index:10;
+        }
+        h1 {
+            margin-left:0px;
+        }
+        button{
+            margin-left:0px;
         }
     }
 }

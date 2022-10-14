@@ -8,7 +8,7 @@ const Nav = ({ libraryStatus, setLibraryStatus }) => {
   };
 
   return (
-    <nav>
+    <nav style={{margin:"0px"}}>
       <h1>Waves</h1>
       <button
         className={libraryStatus ? "library-active" : ""}

@@ -46,52 +46,7 @@ function chillHop() {
             color: "",
             id: uuidv4(),
             active: false
-        },
-        // {
-        //     name: "" ,
-        //     cover: "",
-        //     artist: "" ,
-        //     audio: "",
-        //     color: "",
-        //     id: uuidv4(),
-        //     active: false
-        // },
-        // {
-        //     name: "" ,
-        //     cover: "",
-        //     artist: "" ,
-        //     audio: "",
-        //     color: "",
-        //     id: uuidv4(),
-        //     active: false
-        // },
-        // {
-        //     name: "" ,
-        //     cover: "",
-        //     artist: "" ,
-        //     audio: "",
-        //     color: "",
-        //     id: uuidv4(),
-        //     active: false
-        // },
-        // {
-        //     name: "" ,
-        //     cover: "",
-        //     artist: "" ,
-        //     audio: "",
-        //     color: "",
-        //     id: uuidv4(),
-        //     active: false
-        // },
-        // {
-        //     name: "" ,
-        //     cover: "",
-        //     artist: "" ,
-        //     audio: "",
-        //     color: "",
-        //     id: uuidv4(),
-        //     active: false
-        // },
+        },       
         // {
         //     name: "" ,
         //     cover: "",
